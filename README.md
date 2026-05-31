@@ -35,6 +35,8 @@ api/auth.php           ← endpoint login/logout
 app/login.php          ← pantalla de login (branding desde config)
 app/index.php          ← dashboard (menú desde config)
 modules/_template/     ← plantilla de módulo (copiar para cada pantalla)
+modules/abm/           ← ABM genérico config-driven (CRUD form-first; editar defs.php)
+modules/reportes/      ← motor de listados config-driven (DataTable + impresión; editar defs.php)
 assets/                ← css/js compartidos
 deploy.php             ← subida de archivos por curl (clave desde config)
 ```
