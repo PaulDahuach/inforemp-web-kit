@@ -75,6 +75,22 @@ return [
         'key'     => __DIR__ . '/certs/key.rsa',
     ],
 
+    // ── Tablero del dashboard (OPCIONAL) ─────────────────────────────────
+    // El dashboard (app/index.php) muestra sidebar (desde 'menu') + indicadores
+    // (KPIs) + accesos rápidos. Si omitís 'dashboard', muestra solo el saludo.
+    //   kpis  : cada uno corre una SQL que devuelve UN número (Count/Sum...).
+    //           {SECTOR} se reemplaza por el sector activo (si usás sector_login).
+    //   quick : botones de acceso directo a las pantallas más usadas.
+    // 'dashboard' => [
+    //     'kpis' => [
+    //         ['label'=>'Pendientes', 'icon'=>'bi-inbox', 'color'=>'#0ea5e9', 'url'=>'/modules/x/',
+    //          'sql'=>"SELECT Count(*) AS N FROM [Tbl X] WHERE ESTADO=1;"],
+    //     ],
+    //     'quick' => [
+    //         ['label'=>'Nuevo', 'icon'=>'bi-plus-lg', 'url'=>'/modules/x/'],
+    //     ],
+    // ],
+
     // ── Deploy ───────────────────────────────────────────────────────────
     // Clave del endpoint deploy.php (curl). Cambiala por sistema.
     'deploy_key'  => 'CAMBIAR_ESTA_CLAVE',
