@@ -21,6 +21,7 @@ return [
     // '' si el sistema vive en la raíz del host (producción).
     // '/carpeta' si corre en un subdirectorio (ej. dev: localhost/carpeta/).
     'base_url'    => '',
+    'portal_url'  => '',                        // ej. '/ptp_portal/' para un boton 'Portal' en el topbar (relativo al host)
 
     // ── Identidad del sistema ────────────────────────────────────────────
     'name'        => 'NOMBRE DEL SISTEMA',      // ej. 'Producción PTP'
